@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>FOST - Food Ordering System | Quick & Easy Meals</title>
+    <meta name="description" content="Order delicious meals from local restaurants with FOST. Fast, convenient food delivery and pickup services." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="%PUBLIC_URL%" />
+    <meta property="og:title" content="FOST - Food Ordering System" />
+    <meta property="og:description" content="Easy online food ordering and delivery" />
+    <meta property="og:image" content="./fost . (3).png" />
+<meta property="og:image:width" content="400" />
+<meta property="og:image:height" content="400" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FOST - Food Ordering System" />
+    <meta name="twitter:description" content="Order food online with ease" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/fost-twitter-image.png" />
+
+    <meta name="theme-color" content="#ff6b00" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <style>
+      body {
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+      body.loaded {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script>
+      document.body.classList.add('loaded');
+    </script>
+  </body>
+</html>

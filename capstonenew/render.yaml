@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "source": "/*",
+      "destination": "/index.html",
+      "type": 200
+    }
+  ],
+  "buildCommand": "npm run build",
+  "publishDirectory": "build"
+}
